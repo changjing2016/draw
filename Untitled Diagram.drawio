@@ -1,26 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T10:43:06.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="yiAihZN2AHzwu03EQg4y" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T10:54:13.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="3kyXOOB3VSwd8UgP9W1E" version="16.1.0" type="github">
   <diagram id="vNMGRE3ssf_BlLOQRFQF" name="Page-1">
     <mxGraphModel dx="1640" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-3" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;创建关系及单LUN&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-4" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;解除关系&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-7" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;dmn&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-8" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;日志&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-9" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;建立关系&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="480" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="CPy1J1gKG5NpfxHxVxk1-10" target="CPy1J1gKG5NpfxHxVxk1-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-29" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;创建共享/重删/压缩LUN&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-27">
+          <mxGeometry x="0.3527" y="-2" relative="1" as="geometry">
+            <mxPoint x="-29" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-10" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;CLI/GUI&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CPy1J1gKG5NpfxHxVxk1-10" target="CPy1J1gKG5NpfxHxVxk1-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,6 +69,84 @@
         <mxCell id="CPy1J1gKG5NpfxHxVxk1-21" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;第三方导入&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-20">
           <mxGeometry x="-0.2895" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CPy1J1gKG5NpfxHxVxk1-3" target="CPy1J1gKG5NpfxHxVxk1-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="320" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-24" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;创建主分区&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-23">
+          <mxGeometry x="-0.1462" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-25" value="创建共享LUN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CPy1J1gKG5NpfxHxVxk1-25" target="CPy1J1gKG5NpfxHxVxk1-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="sourcePoint" />
+            <mxPoint x="300" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-31" value="补充分区" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-30">
+          <mxGeometry x="0.0189" y="-6" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.026;entryY=0.74;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CPy1J1gKG5NpfxHxVxk1-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="410" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-33" value="删除分区" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-32">
+          <mxGeometry x="0.0309" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-34" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="CPy1J1gKG5NpfxHxVxk1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="510" as="sourcePoint" />
+            <mxPoint x="390" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-35" value="异常记录日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-34">
+          <mxGeometry x="-0.0629" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-36" value="" style="endArrow=classic;html=1;rounded=0;curved=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1.024;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CPy1J1gKG5NpfxHxVxk1-4" target="CPy1J1gKG5NpfxHxVxk1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="sourcePoint" />
+            <mxPoint x="300" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-37" value="异常记ddsr删除日志&lt;br&gt;日志回放记录残留分区日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-36">
+          <mxGeometry x="-0.2445" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-38" value="" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CPy1J1gKG5NpfxHxVxk1-3" target="CPy1J1gKG5NpfxHxVxk1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPy1J1gKG5NpfxHxVxk1-40" value="异常记录ddsr创建日志&lt;br&gt;日志回放记录残留分区日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CPy1J1gKG5NpfxHxVxk1-38">
+          <mxGeometry x="0.2123" y="2" relative="1" as="geometry">
+            <mxPoint x="21" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
